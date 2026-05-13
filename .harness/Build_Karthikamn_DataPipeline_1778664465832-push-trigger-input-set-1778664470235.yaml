@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Karthikamn_DataPipeline_1778664465832-push-trigger-input-set
+  identifier: Build_Karthikamn_DataPipeline_1778664465832pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DataPipelineProject
+  pipeline:
+    identifier: Build_Karthikamn_DataPipeline_1778664465832
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
