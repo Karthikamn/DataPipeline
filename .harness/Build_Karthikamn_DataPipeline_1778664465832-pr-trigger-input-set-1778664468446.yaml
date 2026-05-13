@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Karthikamn_DataPipeline_1778664465832-pr-trigger-input-set
+  identifier: Build_Karthikamn_DataPipeline_1778664465832prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DataPipelineProject
+  pipeline:
+    identifier: Build_Karthikamn_DataPipeline_1778664465832
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
